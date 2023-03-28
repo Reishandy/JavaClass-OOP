@@ -11,6 +11,8 @@ public class Main {
         System.out.printf("""
                 Luas lingkaran: %.2f
                 Keliling lingkaran: %.2f
-                """, luas, keliling);
+                """,
+                luas, keliling
+        );
     }
 }

@@ -31,6 +31,6 @@ public class Barang {
                 hargaBarang,
                 diskon * 100,
                 hitungHargaJual()
-                );
+        );
     }
 }
