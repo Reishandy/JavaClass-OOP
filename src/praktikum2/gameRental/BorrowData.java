@@ -14,7 +14,7 @@ public class BorrowData {
         this.game = game;
     }
 
-    public void showdata() {
+    public void showData() {
         System.out.println("Data peminjaman");
         System.out.printf("""
                 ID: %d

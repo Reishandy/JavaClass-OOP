@@ -8,7 +8,7 @@ public class Main {
                 "Kucing Adventure"
         );
 
-        dataKijang.showdata();
+        dataKijang.showData();
         String kijangToPay = String.format("%,d", dataKijang.priceToPay(5));
         System.out.println("\nHarga yang harus dibayar setelah meminjam selama 5 hari");
         System.out.println(kijangToPay);
