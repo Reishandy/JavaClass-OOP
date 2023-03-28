@@ -9,7 +9,7 @@ public class Main {
         );
 
         dataKijang.showdata();
-        String kijangToPay = String.format("%,d", dataKijang.priveToPay(5));
+        String kijangToPay = String.format("%,d", dataKijang.priceToPay(5));
         System.out.println("\nHarga yang harus dibayar setelah meminjam selama 5 hari");
         System.out.println(kijangToPay);
     }

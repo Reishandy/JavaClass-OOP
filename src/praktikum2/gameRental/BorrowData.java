@@ -23,7 +23,7 @@ public class BorrowData {
                 """, id, name, game);
     }
 
-    public int priveToPay(int duration) {
+    public int priceToPay(int duration) {
         return this.price * duration;
     }
 }
