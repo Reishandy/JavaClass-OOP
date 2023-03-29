@@ -12,7 +12,7 @@ public class Main {
         Barang pixel3XL = new Barang(
                 "GP3XL",
                 "Google pixel 3XL",
-                14_500_000,
+                1_450_000,
                 0.15F
         );      // Diskon 15%
 
