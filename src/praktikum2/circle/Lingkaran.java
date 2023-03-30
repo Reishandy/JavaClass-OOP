@@ -1,8 +1,13 @@
 package praktikum2.circle;
 
 public class Lingkaran {
-    public double phi;
-    public double r;
+    private final double phi;
+    private final double r;
+
+    public Lingkaran(double phi, double r) {
+        this.phi = phi;
+        this.r = r;
+    }
 
     public double hitungLuas() {
         return phi * r * r;
