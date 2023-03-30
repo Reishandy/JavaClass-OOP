@@ -17,11 +17,11 @@ public class Main {
         mhs2.tampilBiodata();
 
         Mahasiswa mhs3 = new Mahasiswa();
-        mhs2.nim = 103;
-        mhs2.nama = "Mijuruki";
-        mhs2.alamat = "Jl. Anjing No 12";
-        mhs2.kelas = "1A";
-        mhs2.tampilBiodata();
+        mhs3.nim = 103;
+        mhs3.nama = "Mijuruki";
+        mhs3.alamat = "Jl. Anjing No 12";
+        mhs3.kelas = "1A";
+        mhs3.tampilBiodata();
 
     }
 }
