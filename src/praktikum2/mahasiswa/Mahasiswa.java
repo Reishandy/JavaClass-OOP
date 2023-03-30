@@ -12,10 +12,7 @@ public class Mahasiswa {
                 Nama: %s
                 Alamat: %s
                 Kelas: %s
-                """,
-                nim, nama,
-                alamat,
-                kelas
-                );
+                """, nim, nama,alamat,kelas
+        );
     }
 }
