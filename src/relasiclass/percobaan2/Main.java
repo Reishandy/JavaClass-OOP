@@ -13,7 +13,14 @@ public class Main {
         customer.setCar(car);
         customer.setDriver(driver);
         customer.setDay(2);
-        System.out.printf("Biaya total = Rp %,d",
+        System.out.printf("""
+                Mobil : %s @ Rp %,d/hr
+                Sopir : %s @ Rp %,d/hr
+                Peminjaman : %s Hari
+                Biaya total = Rp %,d
+                """, car.getBrand(), car.getCost(),
+                driver.getName(), driver.getCost(),
+                customer.getDay(),
                 customer.calculateTotalCost());
     }
 }
