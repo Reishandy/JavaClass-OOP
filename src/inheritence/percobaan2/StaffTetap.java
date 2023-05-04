@@ -4,7 +4,6 @@ import inheritence.percobaan1.*;
 public class StaffTetap extends Staff {
     public String golongan;
     public int asuransi;
-
     public StaffTetap() {
     }
     public StaffTetap(String name, String address, String gender,

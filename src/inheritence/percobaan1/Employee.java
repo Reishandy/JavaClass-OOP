@@ -3,10 +3,8 @@ package inheritence.percobaan1;
 public class Employee {
     public String name, address, gender;
     public int age, salary;
-
     public Employee() {
     }
-
     public Employee(String name, String address, String gender, int age, int salary) {
         this.name = name;
         this.address = address;

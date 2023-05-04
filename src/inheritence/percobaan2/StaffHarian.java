@@ -5,7 +5,6 @@ public class StaffHarian extends Staff {
     public int hours;
     public StaffHarian() {
     }
-
     public StaffHarian(String name, String address, String gender,
                        int age, int salary, int lembur, int potongan, int hours) {
         super(name, address, gender, age, salary, lembur, potongan);
