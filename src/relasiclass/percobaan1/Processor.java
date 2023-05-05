@@ -3,7 +3,6 @@ package relasiclass.percobaan1;
 public class Processor {
     private String brand;
     private double cache;
-
     public Processor(){}
     public Processor(String brand, double cache) {
         this.brand = brand;

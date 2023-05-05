@@ -1,6 +1,6 @@
 package relasiclass.percobaan2;
 // Author: Muhammad Akbar Reishandy
-public class Customer {
+public class Customer extends Driver {
     private String name;
     private Car car;
     private Driver driver;

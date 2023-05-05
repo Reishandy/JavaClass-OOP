@@ -10,7 +10,7 @@ public class Train {
         return "Nama: " + this.name + "\n" +
                 "Kelas: " + this._class + "\n" +
                 "Masinis: \n" + this.masinis.info() +
-                "Asisten: \n" + this.assistant.info() + "\n";
+                "Asisten: \n" + ( (this.assistant != null) ? this.assistant.info() : "" ) + "\n";
     }
 
     public Train(String name, String _class, Employee masinis) {

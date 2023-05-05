@@ -6,5 +6,8 @@ public class Main {
         Carriage carriage = new Carriage("A", 10);
         carriage.setPassanger(passenger, 1);
         System.out.println(carriage.info());
+
+        carriage.setPassanger(new Passenger("67890", "Budi"), 1);
+        System.out.println(carriage.info());
     }
 }
