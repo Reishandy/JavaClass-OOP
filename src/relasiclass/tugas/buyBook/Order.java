@@ -4,7 +4,7 @@ import relasiclass.tugas.buyBook.book.*;
 import java.util.ArrayList;
 // Author: Muhammad Akbar Reishandy
 
-public class Order extends Textbook {
+public class Order{
     private final String id;
     private int totalPrice;
     private final Person person;
